@@ -1,0 +1,37 @@
+.main-items {
+    
+    box-sizing: border-box;
+    border-top: solid;
+    border-top-color: #5a7d7c;
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+
+.main-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-top: solid;
+    border-top-color: #5a7d7c;
+    margin-top: 0;
+
+}
+
+.contact-list {
+    margin-left: 10em;
+    margin-top: 2.5em;
+}
+
+.contact-form {
+    width: 35%;
+    box-sizing: border-box;
+    border-right: solid;
+    border-right-color: #5a7d7c;
+    
+
+};
+};

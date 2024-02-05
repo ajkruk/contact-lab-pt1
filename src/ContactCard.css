@@ -1,0 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid;
+    border-color: #5a7d7c;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.number-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 30px;
+    
+}
+
+.phone-number {
+    padding-bottom: .5em;
+    
+
+}
+
+.icon-buttons {
+    border-top: solid;
+    border-color:  #5a7d7c;
+    padding-top: .5em;
+    
+}
+
+@media only screen and (min-width: 768px) {
+.card {
+   width: 125%;
+    }
+
+};

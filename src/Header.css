@@ -1,0 +1,12 @@
+.menu-bar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-style: bold;
+    
+}
+
+.menu-button {
+    font-size: 30px;
+}
+
